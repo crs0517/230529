@@ -97,7 +97,7 @@ for(let bullet of bullets){
   }
 }
 push()
-  if(score>19){
+  if(score > 19){
     translate(width/2,height/2)
     text("GAME WIN",50,0)
     textSize(250)
